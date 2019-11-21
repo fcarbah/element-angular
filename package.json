@@ -1,6 +1,6 @@
 {
-  "name": "element-angular",
-  "version": "0.7.6",
+  "name": "angular-e-ui",
+  "version": "0.1.0",
   "description": "element ui for angular",
   "main": "./release/element-angular.module.js",
   "unpkg": "bundle/element-angular.js",
@@ -87,7 +87,7 @@
     "element-ui": "2.0.7",
     "extract-text-webpack-plugin": "^3.0.0",
     "gh-pages": "^1.0.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-tslint": "^8.1.1",
     "highlight.js": "^9.12.0",
