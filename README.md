@@ -28,42 +28,33 @@
 1. Install:
 ```bash
 # install
-npm i --save element-angular
+npm i --save angular-e-ui
 ```
 2. Usage:
 ```typescript
 // improt module
-import { ElModule } from 'element-angular'
+import { ElModule } from 'angular-e-ui'
 
 // import styles
 // if you use webpack, in app.module.ts:
-import 'element-angular/theme/index.css'
+import 'angular-e-ui/theme/index.css'
 
 // or anglar-cli, in /angular-cli.json:
 {
   "app": [{
     "styles": [
-      "../node_modules/element-angular/theme/index.css"
+      "../node_modules/angular-e-ui/theme/index.css"
     ],
     // other configurations...
   }]
 }
 
 // or other, in /src/styles.css:
-@import "~element-angular/theme/index.css"
+@import "~angular-e-ui/theme/index.css"
 
 ```
 
 More: [Doc](https://element-angular.faas.ele.me)
-
-
-
-## Contribution
-
-- [Contribution Guide](https://github.com/eleme/element-angular/blob/master/.github/CONTRIBUTING.en-US.md)
-
-- [贡献指南](https://github.com/eleme/element-angular/blob/master/.github/CONTRIBUTING.zh-CN.md)
-
 
 
 ## Support
